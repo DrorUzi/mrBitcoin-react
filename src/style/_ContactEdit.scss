@@ -1,0 +1,38 @@
+.contact-edit-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    h1{
+        margin-bottom:15px;
+        border-bottom: 1px solid #e3ba67;
+        padding: 10px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        align-items: center;
+        justify-content: space-around;
+        button{
+            width: fit-content;
+            background-color:  #e3ba67;
+            border:none;
+            color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            outline: none;
+        }
+        input{
+            padding: 10px;
+            border: none;
+            border-bottom: 1px solid #303B4A;
+            outline: none;
+            font-size: 1rem;
+            margin: 0 auto;
+            width: 10rem;
+        }
+    }
+}

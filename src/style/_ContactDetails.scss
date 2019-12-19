@@ -1,0 +1,27 @@
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+    padding: 40px;
+    color: #303B4A;
+    height: 100%;
+    a{
+        width: fit-content;
+        background-color:  #e3ba67;
+        border:none;
+        color: black;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        outline: none;
+    }
+}
+.contact-details h1 {
+    margin-bottom:20px;
+} 
+.contact-details img{
+    width: 200px;
+    height: 200px;
+    margin-bottom:20px;
+}
